@@ -1,0 +1,15 @@
+git add README.md (creates file .md)
+
+git init (creates any directory into a work repository)
+
+git status (shows current state of working directory. doesn't modify or commit changes)
+
+git add . /or/ git add <fileName> (adds changes to be commited
+
+git commit -m "comment" (snapshot of the repository. adds the comment between double quotes)
+
+git branch -M main ()
+
+git remote add origin <url from github repository> ()
+
+git push -u origin main (pushes commits to local branch)
