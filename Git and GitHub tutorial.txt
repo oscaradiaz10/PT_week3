@@ -1,3 +1,9 @@
+>>> GENERAL COMMANDS <<<
+ls (list the current directory)
+mkdir (creates a new directory)
+cd <name of directory> (navigate into directory)
+
+>>> GIT Commands <<<
 git add README.md (creates file .md)
 
 git init (creates any directory into a work repository)
@@ -13,3 +19,11 @@ git branch -M main ()
 git remote add origin <url from github repository> ()
 
 git push -u origin main (pushes commits to local branch)
+
+git push (add files to existing branch)
+
+git pull origin main (fetches commits from the master branch of the origin remote)
+
+>>>
+
+git clone <url from github> (Downloads existing source code from a remote repository. In other words, Git clone makes an identical copy of the latest version of a project in a repository and saves it into local computer)
