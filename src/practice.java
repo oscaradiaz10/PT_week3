@@ -1,7 +1,15 @@
 
 public class practice {
 
-	public static void main(String[] args) {
+	//public static void main(String[] args) {	
+		
+		public static String concatenateWord(String word, int number) {
+		    String result = "";
+		    for (int index = 1; index <= number; index++) {
+		        result = result + word;
+		    }
+		    return result;
+		//}
 		// TODO Auto-generated method stub
 		
 //		String[] classNames = new String[3];
@@ -79,9 +87,9 @@ public class practice {
 //            }  
 		
 		//
-		int[] arr = new int[5];
-        arr[3] = 12;
-        System.out.println(arr.length);
+//		int[] arr = new int[5];
+//        arr[3] = 12;
+//        System.out.println(arr.length);
 	}
 	
 }
