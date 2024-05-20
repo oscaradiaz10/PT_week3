@@ -1,7 +1,10 @@
 >>> GENERAL COMMANDS <<<
 ls (list the current directory)
+ls -l (shows the size, last modified date-time as well as directory/file ownership and permissions)
 mkdir (creates a new directory)
+rmdir (removes directory)
 cd <name of directory> (navigate into directory)
+exit (quit and close terminal)
 
 >>> GIT Commands <<<
 git add README.md (creates file .md)
